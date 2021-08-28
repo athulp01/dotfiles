@@ -1,0 +1,63 @@
+{
+    "codeLens.enable": false,
+    "suggest.maxCompleteItemCount": 8,
+    "diagnostic.warningSign": " ",
+    "diagnostic.errorSign": " ",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": " ",
+    "suggest.noselect": false,
+    "diagnostic.checkCurrentLine": true,
+    "coc.preferences.snippets.enable": false,
+    "suggest.echodocSupport": true,
+    "suggest.completionItemKindLabels": {
+        "method": "  ",
+        "function": "  ",
+        "variable": "[]",
+        "field": "  ",
+        "typeParameter": "<>",
+        "constant": "  ",
+        "class": " פּ ",
+        "interface": " 蘒",
+        "struct": "  ",
+        "event": "  ",
+        "operator": "  ",
+        "module": "  ",
+        "property": "  ",
+        "enum": " 練",
+        "reference": "  ",
+        "keyword": "  ",
+        "file": "  ",
+        "folder": " ﱮ ",
+        "color": "  ",
+        "unit": " 塞 ",
+        "snippet": "  ",
+        "text": "  ",
+        "constructor": "  ",
+        "value": "  ",
+        "enumMember": "  "
+    },
+    "java.format.enabled": true,
+    "java.completion.enabled": true,
+    "python.formatting.provider": "black",
+    "prettier.tabWidth": 4,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "python",
+        "java",
+        "javascript",
+        "html",
+        "c",
+        "cpp"
+    ],
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                }
+            }
+        }
+    }
+}
